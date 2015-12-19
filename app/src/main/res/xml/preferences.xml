@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:key="serverIp"
+        android:title="Server IP"
+        android:defaultValue="0.0.0.0"
+        android:summary="Local IP of the server you want to connect to.
+        \nEg. 192.168.0.10" />
+    <EditTextPreference
+        android:key="serverPort"
+        android:title="Server Port"
+        android:defaultValue="4444"
+        android:summary="default port: 4444" />
+</PreferenceScreen>
